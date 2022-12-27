@@ -151,4 +151,30 @@ main>p {
     padding-right: 200px;
 
 }
+.fressNapf__articel__p__unterTitel{
+    text-align: center;
+    width: 80%;                     /* *evtl. anpassen bei anderen Breite wegen Umbruch */
+    margin: 0 auto 5vh auto;
+    padding: 0 10vw;
+    line-height: 1.5;
+
+}
+
+
+/* ************************* footer ********************** */
+
+footer {
+    background-color: #242424;
+
+}
+
+footer>p {
+    color: white;
+    background-color: green;
+    text-align: center;
+    margin: 5vh auto 5vh auto;
+    width: 60%;                     /* * evtl. anpassen bei anderen Breite wegen Umbruch */
+    padding: 5vh 0;
+}
+
 
