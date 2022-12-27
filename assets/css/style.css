@@ -121,37 +121,34 @@ main>p {
 
 /* *********************** Fressnapf *********************** */
 
-.fressnapf__Bild{
+.fressnapf__Bild__UmbebenderText{
     display: flex;
     flex-direction: column;
     justify-content:space-around;
-    background-color: green;
     height: 40vh;
+    background-image: url("../img/dog_bowl.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.fressnapf__Bild>p:nth-of-type(1){
-    background-color: red;
+.fressnapf__Bild__UmbebenderText>p:nth-of-type(1){
     align-self:center;
     padding-top: 20px;
     padding-right: 200px;
+    z-index: 0;
 
 }
 
-.fressnapf__Bild>p:nth-of-type(2){
-    background-color: blue;
+.fressnapf__Bild__UmbebenderText>p:nth-of-type(2){
     align-self:center;
     padding-left: 300px;
 
 }
 
-.fressnapf__Bild>p:nth-of-type(3){
-    background-color: yellow;
+.fressnapf__Bild__UmbebenderText>p:nth-of-type(3){
     align-self:center;
     padding-bottom: 20px;
     padding-right: 200px;
 
 }
 
-.fressnapf__Bild>img {
-    
-}
