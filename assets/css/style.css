@@ -166,7 +166,7 @@ main>p {
 footer {
     background-color: #242424;
     position: sticky;
-    bottom: -20px;              /* * angehefteter Footer-Bottom für unten  */
+    bottom: 0px;              /* * angehefteter Footer-Bottom für unten  */
 
 }
 
@@ -208,6 +208,7 @@ footer>p {
 }
 
 @media only screen and (min-width:1201){
+
 
 
 }
