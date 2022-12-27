@@ -121,3 +121,37 @@ main>p {
 
 /* *********************** Fressnapf *********************** */
 
+.fressnapf__Bild{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    background-color: green;
+    height: 40vh;
+}
+
+.fressnapf__Bild>p:nth-of-type(1){
+    background-color: red;
+    align-self:center;
+    padding-top: 20px;
+    padding-right: 200px;
+
+}
+
+.fressnapf__Bild>p:nth-of-type(2){
+    background-color: blue;
+    align-self:center;
+    padding-left: 300px;
+
+}
+
+.fressnapf__Bild>p:nth-of-type(3){
+    background-color: yellow;
+    align-self:center;
+    padding-bottom: 20px;
+    padding-right: 200px;
+
+}
+
+.fressnapf__Bild>img {
+    
+}
