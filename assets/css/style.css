@@ -144,7 +144,7 @@ main>p {
 
 .fressnapf__Bild__UmbebenderText>p:nth-of-type(2) {
     align-self: center;
-    padding-left: 300px;
+    padding-left: 270px;
 
 }
 
@@ -282,6 +282,52 @@ footer>p {
         width: 95%;
         /* * breite für Wort Umbruch ändern */
     }
+
+    .section__HundeNapf {
+        display: flex;
+        justify-content: center;
+        column-gap: 2rem;
+        width: 80%;
+        margin: 10vh auto;
+        height: 40vh;
+        /* *flex section ausgemittelt */
+    }
+
+
+
+    .div_bild_HundeNapf {
+        width: 30%;
+        max-height: 100%;
+        border-radius: 0.3rem;
+    }
+
+    .bild__HundeNapf {
+        max-width: 45vw;
+        /* * Hund zoomen, damit er alles ausfüllt */
+        object-fit: contain;
+        object-position: -140px -20px;
+        /** erste nacht rechts zweite hoch */
+        overflow: hidden;
+    }
+
+    .fressnapf__Bild__UmbebenderText {
+        width: 30%;
+    }
+
+
+    .fressNapf__articel__unterTitel {
+        width: 30%;
+        padding: 0 0 0 0;
+    }
+
+    .fressNapf__articel__p__unterTitel {
+        width: 85%;
+        padding: 16vh 0;
+        /* * richtet Text mittig aus */
+
+    }
+
+
 
 
 
