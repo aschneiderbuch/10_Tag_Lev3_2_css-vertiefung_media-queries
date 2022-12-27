@@ -28,7 +28,8 @@ html {
     font-size: 16px;
     scroll-behavior: smooth;
     font-family: Nunito, sans-serif;
-    width: 600px; /* * breite 600px auch bei   bild__HundeNapf   max-width: anpassen */
+    width: 600px;
+    /* * breite 600px auch bei   bild__HundeNapf   max-width: anpassen */
 
 
 
@@ -38,15 +39,15 @@ html {
 
 header>p {
     font-family: Rock_Salt, sans-serif;
-text-align: center;
-background-color: #e2e2e9;
-padding-top: 5vh;
+    text-align: center;
+    background-color: #e2e2e9;
+    padding-top: 5vh;
 }
 
 header section {
-/*    display: flex;
+    /*    display: flex;
  */
- background-color: #e2e2e9;
+    background-color: #e2e2e9;
 }
 
 
@@ -62,19 +63,22 @@ header section {
 
 .header__Bild {
     width: 100%;
-    margin-bottom: -1vh;   /* *Rand zwischen section und Bild geht weg */
+    margin-bottom: -1vh;
+    /* *Rand zwischen section und Bild geht weg */
 }
 
-main>p {background-color: #df8480;
-color: white;
-text-align: center;
-height: 10vh;
-padding-top: 3.5vh;
+main>p {
+    background-color: #df8480;
+    color: white;
+    text-align: center;
+    height: 10vh;
+    padding-top: 3.5vh;
 }
 
 .main__section {
-/*     sdisplay: flex;
- */    margin: 5vw 0 5vw 0;
+    /*     sdisplay: flex;
+ */
+    margin: 5vw 0 5vw 0;
 
 }
 
@@ -83,32 +87,36 @@ padding-top: 3.5vh;
 
 }
 
-.main_section_articel_nummern{
+.main_section_articel_nummern {
     font-size: 48px;
     color: #df8480;
 }
 
-.main_section_articel_text{
+.main_section_articel_text {
     margin: 2vw 0 5vw 0;
 }
 
-.articel__nummer3__umbruch__breite{
-margin: 2vw auto;/* *2vw, weil er sonst von .main_sec.._arti.._text überschrieben wird */
+.articel__nummer3__umbruch__breite {
+    margin: 2vw auto;
+    /* *2vw, weil er sonst von .main_sec.._arti.._text überschrieben wird */
     width: 370px;
 }
 
-.div_bild_HundeNapf{
+.div_bild_HundeNapf {
     max-height: 141px;
     overflow: hidden;
 
 }
 
-.bild__HundeNapf{
-    max-width: 600px;        /* *  breite mit ans html anpassen */
- object-fit: contain;
-object-position: 0% -110px; /* *erste px links rechts    2te px hoch runter */
+.bild__HundeNapf {
+    max-width: 600px;
+    /* *  breite mit ans html anpassen */
+    object-fit: contain;
+    object-position: 0% -110px;
+    /* *erste px links rechts    2te px hoch runter */
 
 }
+
 
 
 /* *********************** Fressnapf *********************** */
