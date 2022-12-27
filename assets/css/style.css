@@ -6,7 +6,7 @@ font-family: Nunito, sans-serif;
 */
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -30,3 +30,35 @@ html {
     font-family: Nunito, sans-serif;
 
 }
+
+/* ************************* header ********************** */
+
+header>p {
+    font-family: Rock_Salt, sans-serif;
+text-align: center;
+}
+
+header section {
+/*    display: flex;
+ */
+ width: 600px;
+ background-color: red;
+}
+
+
+.header__Bildüberschrift {
+    display: block;
+    color: #df8480;
+    background-color: yellow;
+    text-align: right;
+    width: 25%;
+    padding-right: 2vw;
+    margin-left: 75vw;
+
+}
+
+.header__Bild {
+    width: 100%;
+
+}
+
