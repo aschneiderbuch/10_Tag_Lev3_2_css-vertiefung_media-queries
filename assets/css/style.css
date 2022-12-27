@@ -28,8 +28,9 @@ html {
     font-size: 16px;
     scroll-behavior: smooth;
     font-family: Nunito, sans-serif;
-/*     width: 600px;
- */    /* * breite 600px auch bei   bild__HundeNapf   max-width: anpassen */
+    /*     width: 600px;
+ */
+    /* * breite 600px auch bei   bild__HundeNapf   max-width: anpassen */
 
 
 
@@ -89,7 +90,8 @@ main>p {
 }
 
 .main_section_articel_nummern {
-    font-size: 48px;
+    font-size: 3rem;
+    /* * = 48px */
     color: #df8480;
 }
 
@@ -122,39 +124,41 @@ main>p {
 
 /* *********************** Fressnapf *********************** */
 
-.fressnapf__Bild__UmbebenderText{
+.fressnapf__Bild__UmbebenderText {
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content: space-around;
     height: 40vh;
     background-image: url("../img/dog_bowl.png");
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.fressnapf__Bild__UmbebenderText>p:nth-of-type(1){
-    align-self:center;
+.fressnapf__Bild__UmbebenderText>p:nth-of-type(1) {
+    align-self: center;
     padding-top: 20px;
     padding-right: 200px;
     z-index: 0;
 
 }
 
-.fressnapf__Bild__UmbebenderText>p:nth-of-type(2){
-    align-self:center;
+.fressnapf__Bild__UmbebenderText>p:nth-of-type(2) {
+    align-self: center;
     padding-left: 300px;
 
 }
 
-.fressnapf__Bild__UmbebenderText>p:nth-of-type(3){
-    align-self:center;
+.fressnapf__Bild__UmbebenderText>p:nth-of-type(3) {
+    align-self: center;
     padding-bottom: 20px;
     padding-right: 200px;
 
 }
-.fressNapf__articel__p__unterTitel{
+
+.fressNapf__articel__p__unterTitel {
     text-align: center;
-    width: 80%;                     /* *evtl. anpassen bei anderen Breite wegen Umbruch */
+    width: 80%;
+    /* *evtl. anpassen bei anderen Breite wegen Umbruch */
     margin: 0 auto 5vh auto;
     padding: 0 10vw;
     line-height: 1.5;
@@ -166,8 +170,10 @@ main>p {
 
 footer {
     background-color: #242424;
-/*     position: sticky;
- */    bottom: 0px;              /* * angehefteter Footer-Bottom für unten  */
+    /*     position: sticky;
+ */
+    bottom: 0px;
+    /* * angehefteter Footer-Bottom für unten  */
 
 }
 
@@ -175,14 +181,15 @@ footer>p {
     color: white;
     text-align: center;
     margin: 5vh auto 0 auto;
-    width: 60%;                     /* * evtl. anpassen bei anderen Breite wegen Umbruch */
+    width: 60%;
+    /* * evtl. anpassen bei anderen Breite wegen Umbruch */
     padding: 5vh 0;
 }
 
 /* * inkl Button Style */
-.footer__button{
+.footer__button {
     display: block;
-    margin:2vh auto 0;
+    margin: 2vh auto 0;
     padding: 2vh;
     width: 80%;
     text-align: center;
@@ -194,54 +201,91 @@ footer>p {
     background-color: white;
 }
 
-.footer__button--style--bunt{
+.footer__button--style--bunt {
     background-color: #df8480;
     color: white;
 }
 
 /* ******************************** Icons *************************+ */
 
-.footer__icons__articel{
+.footer__icons__articel {
     display: flex;
     justify-content: space-around;
-    width: 70%;         /* *evtl. anpassen bei anderen Breite wegen Umbruch */
+    width: 70%;
+    /* *evtl. anpassen bei anderen Breite wegen Umbruch */
     margin: 10vh auto 0;
 }
 
-@media only screen and (min-width:1201px){
-html{
-/*     width: 1201px;
- */}
+@media only screen and (min-width:1201px) {
+    html {
+        /*     width: 1201px;
+ */
+    }
 
-header>p{
-    background-color: white;
-}
+    header>p {
+        background-color: white;
+    }
 
-header section {
-    display: flex;
-}
+    header section {
+        display: flex;
+    }
 
-.header__Bildüberschrift {
-    width: 50vw;
-    color: white;
-    background-color: #df8480;
-    margin-right: 0;
-    padding-right: 1vw;
-    font-size: 2.25rem;
-     word-break: keep-all;
-     padding-left: 30vw;
+    .header__Bildüberschrift {
+        width: 50vw;
+        color: white;
+        background-color: #df8480;
+        margin-right: 0;
+        padding-right: 1vw;
+        font-size: 2.25rem;
+        /* * = 36px */
+        word-break: keep-all;
+        padding-left: 30vw;
 
-    
-}
 
-.header__Bild {
-    width: 50vw;
-    margin-bottom: 0;
-    object-fit:cover;
-    height: 75vh;   /* * hier die höhe ändern damit das Bild bzw. der Hund größer wird */
-    overflow: hidden;
-    background-color: #df8480;
+    }
 
-}
+    .header__Bild {
+        width: 50vw;
+        margin-bottom: 0;
+        object-fit: cover;
+        height: 75vh;
+        /* * hier die höhe ändern damit das Bild bzw. der Hund größer wird */
+        overflow: hidden;
+        background-color: #df8480;
+    }
 
+    main>p {
+        background-color: white;
+        color: #df8480;
+        font-size: 3rem;
+        /* * =48px */
+    }
+
+    .main__section {
+        display: flex;
+        /*     justify-content: space-around;
+ */
+        justify-content: center;
+        column-gap: 2rem;
+        width: 100%;
+    }
+
+    .main_section_articel {
+        width: 25%;
+        box-shadow: 0px 3px 5px rgba(75, 65, 65, 0.582);
+        border-radius: 0.3rem;
+        padding: 0.5rem 2rem;
+
+    }
+
+    .main_section_articel_text {
+        width: 95%;
+        /* * breite für Wort Umbruch ändern */
+    }
+
+
+
+
+
+    /* **************** Vorsicht danach Ende von 1201   }  ist wichtig */
 }
