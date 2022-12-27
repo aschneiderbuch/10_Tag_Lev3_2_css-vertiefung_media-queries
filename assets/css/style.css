@@ -177,4 +177,23 @@ footer>p {
     padding: 5vh 0;
 }
 
+/* * inkl Button Style */
+.footer__button{
+    background-color: blue;
+    display: block;
+    margin:2vh auto;
+    padding: 2vh;
+    width: 80%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50rem;
+}
 
+.footer__button--style--white {
+    background-color: white;
+}
+
+.footer__button--style--bunt{
+    background-color: #df8480;
+    color: white;
+}
