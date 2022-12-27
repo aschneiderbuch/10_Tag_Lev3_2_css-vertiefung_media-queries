@@ -28,8 +28,8 @@ html {
     font-size: 16px;
     scroll-behavior: smooth;
     font-family: Nunito, sans-serif;
-    width: 600px;
-    /* * breite 600px auch bei   bild__HundeNapf   max-width: anpassen */
+/*     width: 600px;
+ */    /* * breite 600px auch bei   bild__HundeNapf   max-width: anpassen */
 
 
 
@@ -42,6 +42,7 @@ header>p {
     text-align: center;
     background-color: #e2e2e9;
     padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 header section {
@@ -165,8 +166,8 @@ main>p {
 
 footer {
     background-color: #242424;
-    position: sticky;
-    bottom: 0px;              /* * angehefteter Footer-Bottom für unten  */
+/*     position: sticky;
+ */    bottom: 0px;              /* * angehefteter Footer-Bottom für unten  */
 
 }
 
@@ -207,8 +208,40 @@ footer>p {
     margin: 10vh auto 0;
 }
 
-@media only screen and (min-width:1201){
+@media only screen and (min-width:1201px){
+html{
+/*     width: 1201px;
+ */}
 
+header>p{
+    background-color: white;
+}
 
+header section {
+    display: flex;
+}
+
+.header__Bildüberschrift {
+    width: 50vw;
+    color: white;
+    background-color: #df8480;
+    margin-right: 0;
+    padding-right: 1vw;
+    font-size: 2.25rem;
+     word-break: keep-all;
+     padding-left: 30vw;
+
+    
+}
+
+.header__Bild {
+    width: 50vw;
+    margin-bottom: 0;
+    object-fit:cover;
+    height: 75vh;   /* * hier die höhe ändern damit das Bild bzw. der Hund größer wird */
+    overflow: hidden;
+    background-color: #df8480;
+
+}
 
 }
