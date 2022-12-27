@@ -206,3 +206,8 @@ footer>p {
     width: 70%;         /* *evtl. anpassen bei anderen Breite wegen Umbruch */
     margin: 10vh auto 0;
 }
+
+@media only screen and (min-width:1201){
+
+
+}
