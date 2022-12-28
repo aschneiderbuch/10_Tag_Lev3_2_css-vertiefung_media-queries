@@ -69,6 +69,10 @@ header section {
     /* *Rand zwischen section und Bild geht weg */
 }
 
+
+/* *********************** main ************************ */
+
+
 main>p {
     background-color: #df8480;
     color: white;
@@ -170,8 +174,8 @@ main>p {
 
 footer {
     background-color: #242424;
-    /*     position: sticky;
- */
+    position: sticky;
+
     bottom: 0px;
     /* * angehefteter Footer-Bottom für unten  */
 
@@ -216,11 +220,21 @@ footer>p {
     margin: 10vh auto 0;
 }
 
+
+
+/* ****************** Media Querrys ************ */
+/* ****************** Media Querrys ************ */
+/* ****************** Media Querrys ************ */
+
+
+
 @media only screen and (min-width:1201px) {
+
     html {
         /*     width: 1201px;
  */
     }
+/* ************************* header ********************** */
 
     header>p {
         background-color: white;
@@ -283,6 +297,8 @@ footer>p {
         /* * breite für Wort Umbruch ändern */
     }
 
+        /* *********************** Fressnapf *********************** */
+
     .section__HundeNapf {
         display: flex;
         justify-content: center;
@@ -327,11 +343,31 @@ footer>p {
 
     }
 
+/* ************************* footer ********************** */
+
+footer>p {
+    width: 25%
+}
+
+.footer__button {
+    width: 25%;
+}
+
+/* ******************************** Icons *************************+ */
+
+.footer__icons__articel {
+    width: 15%;
+    margin: 10vh 0 0 0; /* *Abstand zu Buttons */
+}
 
 
 
 
-
-
+footer>p:nth-of-type(2){
+    margin: 0 0 0 auto ;
+    padding: 0 0 5vh;
+    width: 15%;
+/* *text nach rechts verschieben */
+}
     /* **************** Vorsicht danach Ende von 1201   }  ist wichtig */
 }
